@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Pendaftaran UKM</title>
+</head>
+<body>
+	<h4>Tambah Data Mahasiswa</h4>
+	<form method="POST" action="#">
+		<table border="0.5">
+			<tr>
+				<td>Nama</td>
+				<td>:</td>
+				<td>
+					<input type="text" name="nama" size="60">
+				</td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td>:</td>
+				<td>
+					<textarea name="alamat" cols="50" rows="5"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Tanggal Lahir</td>
+				<td>:</td>
+				<td>
+					<input type="date" name="tgl_lagir">
+				</td>
+			</tr>
+			<tr>
+				<td>Kelas</td>
+				<td>:</td>
+				<td>
+					<select name="kelas">
+						<option selected="">Pilih kelas</option>
+						<option value="18S1SI01">18-s1si-01</option>
+						<option value="18S1SI02">18-s1si-02</option>
+						<option value="18S1SI03">18-s1si-03</option>
+						<option value="18S1SI04">18-s1si-04</option>
+						<option value="18S1SI05">18-s1si-05</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>:</td>
+				<td>
+					<input type="radio" name="kelamin" value="P">
+					Pria
+					<input type="radio" name="kelamin" value="W">Wanita
+				</td>
+			</tr>
+			<tr>
+				<td>UKM yang diikuti</td>
+				<td>:</td>
+				<td>
+					<input type="checkbox" name="amcc">AMCC <br>
+					<input type="checkbox" name="jurnalistik">Jurnalistik <br>
+					<input type="checkbox" name="MAYAPALA">Mayapala <br>
+					<input type="checkbox" name="Taekwondo">Taekwondo <br>
+					<input type="checkbox" name="KOMA">KOMA <br>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="submit" name="simpan" value="Kirim">
+					<input type="reset" name="RESET" value="Reset">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
