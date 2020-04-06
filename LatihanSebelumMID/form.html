@@ -33,11 +33,11 @@
 	</div>
 
 	<div align="center">
-		<form action="action.php" method="GET">
+		<form action="action.php" method="POST">
 			<table>
 				<tr>
 					<td>Nama</td>
-					<td><input type="text" name="nama" placeholder="Isikan nama anda"></td>
+					<td><input type="text" name="nama" placeholder="Isikan nama anda" required></td>
 					<td rowspan="8">
 						<h4>Aturan Pendaftaran</h4>
 
@@ -60,7 +60,7 @@
 				</tr>
 				<tr>
 					<td>Tanggal Lahir</td>
-					<td><input type="date" name="ttl"></td>
+					<td><input type="date" name="ttl" required></td>
 				</tr>
 				<tr>
 					<td>Jenis Kelamin</td>
@@ -69,7 +69,7 @@
 				<tr>
 					<td>Kelas</td>
 					<td>
-						<select name="kelas">
+						<select name="kelas" required>
 							<option value="">-Pilih Kelas-</option>
 							<option value="19-S1SI-01">Sistem Informasi</option>
 							<option value="19-S1TI-01">Informatika</option>
@@ -78,7 +78,7 @@
 				</tr>
 				<tr>
 					<td>Email</td>
-					<td><input type="email" name="email"></td>
+					<td><input type="email" name="email" required></td>
 				</tr>
 				<tr>
 					<td>Username</td>

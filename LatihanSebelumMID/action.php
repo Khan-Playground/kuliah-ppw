@@ -19,23 +19,23 @@
 
 			<tr>
 				<td>Nama</td>
-				<td><?php echo ($_GET["nama"] == "" ? "Ridwan Hanif" : $_GET["nama"]); ?></td>
+				<td><?php echo (isset($_POST["nama"]) == false ? "Ridwan Hanif" : $_POST["nama"]); ?></td>
 				<td rowspan="5" align="center"><a href="profil.png"><img src="profil.png" alt="Foto profil"></a></td>
 			</tr>
 
 			<tr>
 				<td>NIM</td>
-				<td><?php echo ($_GET["nama"] == "" ? "19.12.9999" : "99.99.9999"); ?></td>
+				<td><?php echo (isset($_POST["nama"]) == false ? "19.12.9999" : "99.99.9999"); ?></td>
 			</tr>
 
 			<tr>
 				<td>Kelas</td>
-				<td><?php echo ($_GET["kelas"] == "" ? "19-S1SI-01" : $_GET["kelas"]); ?></td>
+				<td><?php echo (isset($_POST["kelas"]) == false ? "19-S1SI-01" : $_POST["kelas"]); ?></td>
 			</tr>
 
 			<tr>
 				<td>Email</td>
-				<td><?php echo ($_GET["email"] == "" ? "Ridwanhanif@students.amikom.ac.id" : $_GET["email"]); ?></td>
+				<td><?php echo (isset($_POST["email"]) == false ? "Ridwanhanif@students.amikom.ac.id" : $_POST["email"]); ?></td>
 			</tr>
 
 			<tr>
@@ -49,23 +49,23 @@
 
 			<tr>
 				<td>Nama</td>
-				<td><?php echo ($_GET["nama"] == "" ? "Ridwan Hanif" : $_GET["nama"]); ?></td>
+				<td><?php echo (isset($_POST["nama"]) == false ? "Ridwan Hanif" : $_POST["nama"]); ?></td>
 				<td rowspan="5" align="center"><img src="dontexist.jpg" alt="Foto profil"></td>
 			</tr>
 
 			<tr>
 				<td>NIM</td>
-				<td><?php echo ($_GET["nama"] == "" ? "19.12.9999" : "99.99.9999"); ?></td>
+				<td><?php echo (isset($_POST["nama"]) == false ? "19.12.9999" : "99.99.9999"); ?></td>
 			</tr>
 
 			<tr>
 				<td>Kelas</td>
-				<td><?php echo ($_GET["kelas"] == "" ? "19-S1SI-01" : $_GET["kelas"]); ?></td>
+				<td><?php echo (isset($_POST["kelas"]) == false ? "19-S1SI-01" : $_POST["kelas"]); ?></td>
 			</tr>
 
 			<tr>
 				<td>Email</td>
-				<td><?php echo ($_GET["email"] == "" ? "Ridwanhanif@students.amikom.ac.id" : $_GET["email"]); ?></td>
+				<td><?php echo (isset($_POST["email"]) == false ? "Ridwanhanif@students.amikom.ac.id" : $_POST["email"]); ?></td>
 			</tr>
 
 			<tr>
