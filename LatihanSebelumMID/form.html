@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 1 Sebelum MID</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style type="text/css">
+		hr {
+			border: 2px solid black
+		}
+		form > table, tr, td {
+			border: 1px solid black
+		}
+	</style>
+</head>
+<body>
+	<marquee>
+		<h1>Universitas Amikom Yogyakarta</h1>
+	</marquee>
+	<div align="center">
+		<hr style="width: 40%">
+		<hr style="width: 25%">
+	</div>
+
+	<div align="center">
+		<table>
+			<tr>
+				<td style="border: none;"><img src="logo.jpg" style="width: 75px; height: 75px"></td>
+				<td width="200px" align="center" style="border: none;"><h2>Register</h2></td>
+				<td style="border: none;"><img src="logo.jpg" style="width: 75px; height: 75px"></td>
+			</tr>
+		</table>
+	</div>
+
+	<div align="center">
+		<form action="action.php" method="GET">
+			<table>
+				<tr>
+					<td>Nama</td>
+					<td><input type="text" name="nama" placeholder="Isikan nama anda"></td>
+					<td rowspan="8">
+						<h4>Aturan Pendaftaran</h4>
+
+						<ol type="1">
+							<li>Nama harus ditulis dengan huruf kapital</li>
+							<li>Email menggunakan <b>AMIKOM</b></li>
+							<li>Foto :</li>
+							<ol type="I">
+								<li>Berukuran 3 x 4</li>
+								<li>Background Foto :</li>
+								<ul>
+									<li>Berwarna Merah untuk Perempuan</li>
+									<li>Berwarna Biru untuk Laki-laki</li>
+								</ul>
+							</ol>
+							<li>Password Menggnukanan (A-Za-z1-0)</li>
+							<li>Tanggal lahir sesuai identitas</li>
+						</ol>
+					</td>
+				</tr>
+				<tr>
+					<td>Tanggal Lahir</td>
+					<td><input type="date" name="ttl"></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td><input type="radio" name="kelamin" value="Laki-laki">L <input type="radio" name="kelamin" value="Perempuan">P</td>
+				</tr>
+				<tr>
+					<td>Kelas</td>
+					<td>
+						<select name="kelas">
+							<option value="">-Pilih Kelas-</option>
+							<option value="19-S1SI-01">Sistem Informasi</option>
+							<option value="19-S1TI-01">Informatika</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" name="email"></td>
+				</tr>
+				<tr>
+					<td>Username</td>
+					<td><input type="text" name="username"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="Password" name="password"></td>
+				</tr>
+				<tr>
+					<td>Foto</td>
+					<td><input type="file" name="foto"></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<button type="submit">Submit</button>
+						<button type="button">next</button>
+						<button type="reset">Reset</button>
+					</td>
+				</tr>
+			</table>
+			<a href="#">Kembali</a>
+		</form>
+	</div>
+</body>
+</html>
